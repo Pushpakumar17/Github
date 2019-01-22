@@ -14,7 +14,7 @@ public class MagentoAppTest
 	public static void main(String[] args)
 	{
 		String url = "https://magento.com";
-		WebDriver driver = new ChromeDriver();
+		ChromeDriver driver = new ChromeDriver();
 		
 		
 		driver.manage().window().maximize();
